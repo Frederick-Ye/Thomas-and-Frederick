@@ -3,19 +3,14 @@
       position: absolute;
       margin: 0;
     }
-  
     #navbar{
       position: fixed;
       top: 0;
       border-right: none;
       height: 50%;
       width: auto;
-  
     }
-  }
-  
-  
-  
+  } 
   main{
     font-family: "Nunito sans", tahoma;
     font-size: 18px;
