@@ -3,6 +3,14 @@
       position: absolute;
       margin: 0;
     }
+
+    html, body {
+        min-width: 290px;
+        color: #4d4e53;
+        background-color: #ffffff;
+        font-family: 'Open Sans', Arial, sans-serif;
+        line-height: 1.5;
+    }
     #navbar{
       position: fixed;
       top: 0;
@@ -52,15 +60,15 @@
   }
   
   #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     height: 100%;
-    width: 30%;
+    width: 40%;
     border-right: 3px solid #a3a0a0;
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
   }
   
   nav  ul{
