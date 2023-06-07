@@ -7,69 +7,63 @@
   </head>
 
   <body>
-    
+    <nav id="navbar">
+      <header>technical documentation</header>
+      <ul>
+        <a class="nav-link" href="#Introduction"><li >Introduction</li></a>
+        <a class="nav-link" href="#What_you_should_already_know"><li>What you should already Know</li></a>
+        <a class="nav-link" href="#Javscript_and_Java"><li>Javscript and Java</li></a>
+        <a class="nav-link" href="#Hello_world"><li>Hello world</li></a>
+        <a class="nav-link" href="#Variables"><li>Variables</li></a>
+    </ul>
+  </nav>  
   <main id="main-doc">
-    <section class="main-doc">
-      <section class="main-section">
-        <nav id="navbar">
-          <header>technical documentation</header>
-          <ul>
-            <a class="nav-link" href="#Introduction"><li >Introduction</li></a>
-            <a class="nav-link" href="#What_you_should_already_know"><li>What you should already Know</li></a>
-            <a class="nav-link" href="#Javscript_and_Java"><li>Javscript and Java</li></a>
-            <a class="nav-link" href="#Hello_world"><li>Hello world</li></a>
-            <a class="nav-link" href="#Variables"><li>Variables</li></a>
-        </ul>
-      </nav>
-
-        <header id="Introduction">Introduction</header>
-        JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
-        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
-        <code></code>
-      </section>
-      <section class="main-section">
-        <header id="What_you_should_already_know">What you should already know</header>
-        <p>This guide assumes you have the following basic background.</p>
-        <p>A general understanding of the Internet and the World Wide Web (WWW).
-          Good working knowledge of HyperText Markup Language (HTML).
-          Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript</p>
-          <code></code>
-      </section>
-      <section class="main-section">
-        <header id="Javascript_and_Java">Javascript and Java</header>
-        <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript. </p>
-        <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
-        <code></code>
-      </section>
-      <section class="main-section">
-        <header id="Hello_world">Hello world</header>
-        <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
-        <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
-        <code></code>
-      </section>
-      <section class="main-section"><header id="Variables">Variables</header>
-        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
-        </p>
-        <p>function greetMe(yourName) { alert("Hello " + yourName); }
-          greetMe("World");
-          Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
-          code
-      </section>
+    <section class="main-section" id="Introduction">
+      <header >Introduction</header>
+      JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment , JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+      <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. </p>
+      <code></code>
     </section>
+
+    <section class="main-section" id="#What_you_should_already_know">
+      <header>What you should already know</header>
+      <p>
+        his guide assumes you have the following basic background.
+      </p>
+      <p>
+        general understanding of the Internet and the World Wide Web (WWW).
+        Good working knowledge of HyperText Markup Language (HTML).
+        Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript
+      </p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Javascript_and_Java">
+      <header >Javascript and Java</header>
+      <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking.. </p>
+      <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. </p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Hello_world">
+      <header >Hello world</header>
+      <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. </p>
+      <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Be</p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Variables">
+      <header >Variables</header>
+      <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+      </p>
+      <p>function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");
+        Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+        <code></code>
+    </section>
+    
+      
+    
   </main>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+   
     <script  src="js/index.js"></script>
   </body>
 </html>
